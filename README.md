@@ -38,5 +38,5 @@ fmt.Println(err)
 
 ## Examples
 
-[Live example at: https://goplay.space/#HciC635WRLQ](https://goplay.space/#HciC635WRLQ)
-[examples/main.go](./examples/main.go)
+* [Live example at: https://goplay.space/#HciC635WRLQ](https://goplay.space/#HciC635WRLQ)
+* [examples/main.go](./examples/main.go)
