@@ -16,4 +16,10 @@ func Test(t *testing.T) {
 	if err = nil; Error(err, "in case of error") != nil {
 		t.Error("expected nil")
 	}
+
+	Format = "MSG: %s ERR : %s"
+	err = errors.New("deadline exceeded")
+	if Error(err, "create user, failed").Error() != "MSG: create user, failed ERR : deadline exceeded" {
+		t.Error("expected format change")
+	}
 }
