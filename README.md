@@ -1,5 +1,7 @@
 # per
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/piotrpersona/per.svg)](https://pkg.go.dev/github.com/piotrpersona/per)
+
 Simple error wrapper library
 
 ## Install
